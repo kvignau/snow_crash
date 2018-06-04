@@ -1,0 +1,8 @@
+methode TOCTOU (Time of check to time of use)
+on ouvre le port 6969 de notre machine (nc -l ip 6969)
+on cree un fichier avec les droit (touch /tmp/coucou)
+on fait un lien symbolique que access va accepter
+on creer un lien symbolique entre token et notre autre fichier que open va accepter
+on envoy les deux scripts en asynchone (sh /tmp/script1& sh/tmp/script2&)
+script1 -> boucle de lien symbolique entre les 3 fichiers
+script2 -> boucle sur le programme level10

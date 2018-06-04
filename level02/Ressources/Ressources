@@ -1,0 +1,5 @@
+decoder le fichier pcap avec cloudshark
+faire attention aux caracteres de suppression(hex format) 7f -> del   "man ascii"
+follow stream
+result -> ft_waNDReL0L
+

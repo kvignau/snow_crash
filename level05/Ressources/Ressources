@@ -1,0 +1,7 @@
+on recoit un mail qui nous dit que le script shell /usr/sbin/openarenaserver
+est execute en su toutes les 2 minutes
+on cree un script dans /opt/openarenaserver/
+getflag > /tmp/coucou.txt
+et on attend 2 minutes
+cat /tmp/coucou.txt
+:)

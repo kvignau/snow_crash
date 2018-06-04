@@ -1,0 +1,7 @@
+on decompile le code
+on voit 15 string etrange dans l'asm
+-> mov dword [ esp ], 0x8049220 ; "g <t61:|4_|!@IF.-62FH&G~DCK/Ekrvvdwz?v|"
+qui passe dans la fonction ft_des
+donc on recupere la string et recupere la fonction ft_des qu'on compile
+on envoi la string
+et c'est good :)

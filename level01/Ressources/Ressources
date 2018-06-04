@@ -1,0 +1,2 @@
+recuperer le mot de passe dans /etc/passwd et utiliser john pour le decrypter
+sudo john --show <file>

@@ -1,0 +1,5 @@
+create dynamic library for getuid that return 0x1092;
+gcc -shared getuid.c -o getuid.so
+export LD_PRELOAD=/tmp/getuid.so
+run with gdb
+thats all ;)

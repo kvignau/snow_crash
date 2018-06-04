@@ -1,0 +1,5 @@
+while [ 1 ]
+	do
+		ln -sf /tmp/coucou /tmp/tokenlocal
+		ln -sf ~/token /tmp/tokenlocal
+done
